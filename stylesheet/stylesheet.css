@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+    height: 100vh;
+    overflow-y: hidden;
+    background: radial-gradient(circle, white, rgba(209, 205, 205, 0.42)); /* Standard syntax */
+}
+
+ul{
+  position: absolute;
+  left: 400px;
+  top: 300px;
+ overflow: hidden;
+}
+
+li{
+  list-style-type: none;
+  display: inline-block;
+  height: 300px;
+  width: 80px;;
+  text-align: center;
+  line-height: 560px;
+  border-left: solid 1px black;
+  border-bottom: solid 1px black;
+  border-top: solid 1px black;
+  float: left;
+}
+
+#\;{
+  border-right: solid 1px black;
+}
+
+/***********Zwarte toetsen (de sharp)*****************/
+#ul_zwarte_toetsen{
+  position: absolute;
+  left: 450px;
+  top: 300px;
+}
+
+#ul_zwarte_toetsen li {
+  background-color: black;
+  line-height: 350px;
+  color: white;
+  height: 200px;
+  width: 60px;
+  float: none;
+}
+
+/*Zorgt dat de zwarte toets op zijn plaats komt*/
+#p {
+  margin-left: 20px;
+}
+
+#w {
+  margin-left: 20px;
+}
+
+#t{
+  margin-left: 90px;
+}
+
+#y {
+  margin-left: 20px;
+}
+
+#u {
+  margin-left: 20px;
+}
+
+#o {
+  margin-left: 90px;
+}
+
+/*Container van de ingedrukte toetsen*/
+#historyContainer{
+  height: 100px;
+  width: 810px;
+  position: absolute;
+  left: 400px;
+  top: 200px;
+  overflow: hidden;
+}
+
+#historyContainer p{
+  display: inline;
+  font-size: 3em;
+}
